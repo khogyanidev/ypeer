@@ -23,7 +23,7 @@ class MemberController extends Controller
             'location' => 'required',
             'phone' => 'required',
             'joiningdate' => 'required',
-        ], ['fullname' => 'نوم تش مه پریږده']);
+        ], ['fullname' => 'num tash ma pregda']);
 
         Member::create(['fullname' => $request->fullname, 'job' => $request->job, 'location' => $request->location, 'phone' => $request->phone, 'joiningdate' => $request->joiningdate,]);
 
